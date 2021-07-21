@@ -38,7 +38,7 @@ function App() {
         <input type="submit" name="Search" className="search-btn" />
       </form>
 
-      {data.length >= 1 ? <Gallery data={data} /> : <h1>No images loaded</h1>}
+      {data.length >= 1 ? <Gallery data={data} /> : <h2>No images loaded</h2>}
     </div>
   );
 }
